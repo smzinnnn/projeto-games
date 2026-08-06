@@ -1,6 +1,35 @@
+body {
+    font-family: Arial;
+    background-color: #f0f7ff;
+    padding: 24px; 
+}
 
+h1 {
+    color: #1e3a8a;
+    text-align: center;
+    background-color: #bfdbfe;
+    padding: 12px; 
+    border-radius: 6px;
+}
 
-li {
-    background-color:aliceblue
-    
+.descricao {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #1d4ed8;
+    background-color: #e0efff;
+    padding: 10px; 
+    border-radius: 4px;
+}
+
+a {
+    color: #1e40af;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dc2626;
 }
