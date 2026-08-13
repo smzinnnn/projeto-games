@@ -1,35 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
 body {
-    font-family: Arial;
-    background-color: #f0f7ff;
-    padding: 24px; 
+    background-color: #f0f2f5;
+    line-height: 1.6;
 }
 
-h1 {
-    color: #1e3a8a;
-    text-align: center;
-    background-color: #bfdbfe;
-    padding: 12px; 
-    border-radius: 6px;
+header {
+    background-color: blue;
+    color: white;
+    padding: 30px 2%;
+    margin-bottom: 25px;
 }
 
-.descricao {
-    text-align: center;
-    color: #333;
+.cabecalho {
+    max-width: 1150px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.logo-nome {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.titulo h1 {
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.texto {
+    opacity: 0,9;
+    font-style: itálico;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-top: 45px;
+    margin-left: -120px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color:;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
 }
 
 h2 {
-    color: #1d4ed8;
-    background-color: #e0efff;
-    padding: 10px; 
-    border-radius: 4px;
+    color: #2c3e50;
+    margin: 30px 0 15px;
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+
+ol, ul {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 8px 0;
 }
 
 a {
-    color: #1e40af;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #dc2626;
+    color: #2980b9
 }
