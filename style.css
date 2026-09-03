@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.titulo-area h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.descricao {
+    font-size: 1rem;
+    color: #b0b0b0;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #333333;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background-color: #444444;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    flex: 1;
+    width: 100%;
+}
+
+h2 {
+    color: #ffffff;
+    margin: 30px 0 15px;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 8px;
+}
+
+ol, ul {
+    background-color: #1a1a1a;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+li a {
+    color: #90caf9;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 40px;
+    color: #b0b0b0;
+    font-size: 0.95rem;
+}
+
+section form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+section form h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+section form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+section form input[type="text"],
+section form input[type="email"],
+section form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+section form input:focus,
+section form textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+section form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+section form button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+section form button:hover {
+    background: linear-gradient(135deg, #2980b9, #1f618d);
+    transform: translateY(-2px);
+}
+
+section form button:active {
+    transform: translateY(0);
+}
