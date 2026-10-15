@@ -20,7 +20,7 @@ header {
     padding: 30px;
     border-radius: 12px;
     margin-bottom: 30px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ nav a {
     padding: 8px 16px;
     border-radius: 6px;
     background-color: #333333;
-    transition: background 0.2s;
+    transition: background-color 0.2s ease;
 }
 
 nav a:hover {
@@ -71,7 +71,8 @@ h2 {
     padding-bottom: 8px;
 }
 
-ol, ul {
+ol,
+ul {
     background-color: #1a1a1a;
     padding: 20px 30px;
     border-radius: 10px;
@@ -122,7 +123,7 @@ section form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #333;
+    color: #333333;
 }
 
 section form input[type="text"],
@@ -131,7 +132,7 @@ section form textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    border: 2px solid #ddd;
+    border: 2px solid #dddddd;
     border-radius: 8px;
     font-size: 16px;
     box-sizing: border-box;
@@ -154,7 +155,7 @@ section form button {
     width: 100%;
     padding: 14px;
     background: linear-gradient(135deg, #3498db, #2980b9);
-    color: white;
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     font-size: 18px;
@@ -170,4 +171,56 @@ section form button:hover {
 
 section form button:active {
     transform: translateY(0);
+}
+
+section form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+section form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+section form input[type="text"],
+section form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #333333;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+section form input:focus,
+section form textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+section form button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+section form button:hover {
+    background: linear-gradient(135deg, #2980b9, #1f618d);
+    transform: translateY(-2px);
 }
